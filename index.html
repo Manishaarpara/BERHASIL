@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+
+    <!-- header section -->
+    <header class="header">
+        <!-- class="fas fa-shopping-basket" -->
+        <a href="#" class="logo"><i ></i> Nutriverse </a> 
+        <!-- <img src="NUTRIVERSE/logo.png" alt="Nutriverse Logo" width="200" height="100" > -->
+        <a href="#" class="logo"> </i> </a> 
+
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#service">Service</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+            <a href="#review">Review</a>
+            <a href="#blog">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="NUTRIVERSE/food.png" alt="">
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="qty">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="NUTRIVERSE/food.png"  alt="">
+                <div class="content">
+                    <h3>onion</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="qty">qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="NUTRIVERSE/food.png" alt="">
+                <div class="content">
+                    <h3>chicken</h3>
+                    <span class="price">$4.99/-</span>
+                    <span class="qty">qty : 1</span>
+                </div>
+            </div>
+
+
+            <div class="total">total : $19.69/- </div>
+            <a href="#" class="btn">Checkout</a>
+
+        </div>
+
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="your email.." class="box">
+            <input type="password" placeholder="your password.." class="box">
+            <p>forget your password <a href="#"> click here</a></p>
+            <p>dont have an account<a href="#"> create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+
+
+    
+    <!-- home section start  -->
+    <section class="home" id="home">
+        <div class="content">
+            <h2> Take Control Of Your <span>Health</span> </h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, voluptatem.</p>
+            <a href="#" class="btn">shop now</a>
+        </div>
+    </section>
+
+
+    <!-- features section start -->
+    <section class="service" id="service">
+        <h1 class="heading">our <span>service</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="NUTRIVERSE/consult ilust.jpg" width="350" height="350" alt="">
+                <h3>Clinical Expertise</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, vitae! A fugit voluptas totam vitae.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="NUTRIVERSE/menu service.jpg" width="350" height="350" alt="">
+                <h3>Menu Services</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, vitae! A fugit voluptas totam vitae.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            
+            <div class="box">
+                <img src="NUTRIVERSE/vitamin.jpg" width="350" height="350" alt="">
+                <h3>Healthy Living</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, vitae! A fugit voluptas totam vitae.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- product section  -->
+
+    <section class="products" id="products">
+        <h1 class="heading"> our <span>products</span></h1>
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/magnesium.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/magnesium.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/magnesium.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/magnesium.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/magnesium.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/magnesium.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/magnesium.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/magnesium.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/magnesium.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/magnesium.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/magnesium.png" alt="">
+                    <h3>fresh orange</h3>
+                    <div class="price">$4.99/- - 10.99/-</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- categories section -->
+    <section class="categories" id="categories">
+        <h1 class="heading">product <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="" alt="">
+                <h3>vegitables</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="" alt="">
+                <h3>vegitables</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="" alt="">
+                <h3>vegitables</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <img src="" alt="">
+                <h3>vegitables</h3>
+                <p>upto 45% off</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- review section -->
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/review1.webp" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, cumque?</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/review1.webp" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, cumque?</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/review1.webp" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, cumque?</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="NUTRIVERSE/review1.webp" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, cumque?</p>
+                    <h3>john deo</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- blog section -->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="NUTRIVERSE/magnesium.png" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i>by admin</a>
+                        <a href="#"> <i class="fas fa-calendar"></i>1st may, 2025</a>
+                    </div>
+                    <h3>fresh and oraganic begitables and fruits</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore omnis sit ipsam sint odit ex at nemo vel dicta, necessitatibus culpa nesciunt quibusdam fuga modi sequi velit similique! Eius, dignissimos!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="NUTRIVERSE/vidthumbnail.jpg" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i>by admin</a>
+                        <a href="#"> <i class="fas fa-calendar"></i>1st may, 2025</a>
+                    </div>
+                    <h3>fresh and oraganic begitables and fruits</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore omnis sit ipsam sint odit ex at nemo vel dicta, necessitatibus culpa nesciunt quibusdam fuga modi sequi velit similique! Eius, dignissimos!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="NUTRIVERSE/nutri.webp" alt="">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"> <i class="fas fa-user"></i>by admin</a>
+                        <a href="#"> <i class="fas fa-calendar"></i>1st may, 2025</a>
+                    </div>
+                    <h3>fresh and oraganic begitables and fruits</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore omnis sit ipsam sint odit ex at nemo vel dicta, necessitatibus culpa nesciunt quibusdam fuga modi sequi velit similique! Eius, dignissimos!</p>
+                    <a href="#" class="btn">read more</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <!-- footer  -->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>nutriverse <i class="fas fa-shopping-basket"></i></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, ipsa!</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+
+
+            <div class="box">
+                <h3>contact info</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, ipsa!</p>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +123-456-7890</a>
+                <a href="#" class="links"> <i class="fas fa-phone"></i> +111-222-3333</a>
+                <a href="#" class="links"> <i class="fas fa-envelope"></i> nutriadmin@gmail.com</a>
+                <a href="#" class="links"> <i class="fas fa-map-market-alt"></i> Denpasar, Bali - 400104</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, ipsa!</p>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+                <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <input type="email" placeholder="your email.. " class="email"> 
+                <input type="submit" value="subscribe" class="btn"> 
+                <img src="" class="payment-img" alt="">    
+            </div>
+
+        </div>
+
+        <div class="credit">
+            created by <span> group 2 with mr.web designer youtube tutorial </span> | all rights reserved
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
